@@ -1,0 +1,22 @@
+/*
+filename: enhancments.css
+author: Henil Shah
+created: 28/08/2022
+last modified: 28/08/2022
+description: about.html, product.html
+*/
+
+details summary{
+	font-size: 16px;
+	color: #005477;
+}
+
+#productFood{
+	margin-left: 10%;
+	width: 20%;
+	height: auto;
+}
+
+figure img:hover, #productFood:hover {
+	transform: scale(2);
+}

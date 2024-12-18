@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="description" content="Product enquiry page" />
+  <meta name="keywords" content="Enquiry" />
+  <meta name="author" content="Henil Shah"  />
+  <title>Enquire about products</title>
+  
+  <link href="styles/style.css" rel="stylesheet" />
+  <script src="scripts/part2.js"></script>
+</head>
+
+<body>
+   <header>
+		<a href="https://mercury.swin.edu.au/cos10011/s103190205/assign1/index.html"><img id="logo" src="images/logo.jpg" alt="Logo"></a>
+		<!-- Source: https://www.freepik.com/free-vector/illustration-transportation-icon_2944816.htm#query=cruise%20ship%20logo%20jpg&position=0&from_view=search&track=ais --> 
+		
+		<section class="indexHeaderSection"><h1 id="indexHeader">Enquire about products</h1></section>
+    </header> 
+
+	<nav>
+        <p class="menu"><a href="https://mercury.swin.edu.au/cos10011/s103190205/assign2/index.html">Home</a></p> 
+		<p class="menu"><a href="https://mercury.swin.edu.au/cos10011/s103190205/assign2/product.html">Products</a> </p> 
+		<p class="menu"><a href="https://mercury.swin.edu.au/cos10011/s103190205/assign2/enquire.html">Enquiry</a></p> 
+		<p class="menu"><a href="https://mercury.swin.edu.au/cos10011/s103190205/assign2/about.html">About</a></p> 
+		<p class="menu"><a href="https://mercury.swin.edu.au/cos10011/s103190205/assign2/enhancements.html">Enhancements</a></p>
+		<p class="menu"><a href="https://mercury.swin.edu.au/cos10011/s103190205/assign2/enhancements2.html">Enhancements2</a></p>
+    </nav>
+	
+	<h2>Have questions? Contact us.</h2>
+	
+	<form method="post" action="https://mercury.swin.edu.au/cos10011/s103190205/assign2/payment.html" id="enquiryFormID">
+	
+		<fieldset>
+			
+			
+			<legend>Your details</legend>
+			<label for="firstName">First Name:</label>
+			<input type="text" id="firstName" name="firstName" maxlength="25" required="required" pattern="[a-zA-Z]{1,25}"/>
+			<br><br>
+			
+			<label for="lastName">Last Name:</label>
+			<input type="text" id="lastName" name="lastName" maxlength="25" required="required" pattern="[a-zA-Z]{1,25}"/>
+			<br><br>
+			
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" required="required"> 
+			<br><br>
+			
+			<fieldset>
+				<legend>Address</legend>
+				<label for="streetAddress">Street Address:</label>
+				<input type="text" id="streetAddress" name="streetAddress" maxlength="40" required="required" pattern="[a-zA-Z]{1,40}"/>
+				<br><br>
+				
+				<label for="suburb">Suburb/Town:</label>
+				<input type="text" id="suburb" name="suburb" maxlength="20" required="required" pattern="[a-zA-Z]{1,20}"/>
+				
+				<p><label for="state">State</label>
+					<select name="state" id="state" required="required">
+						<option value="none">Please select</option>
+						<option value="VIC">VIC</option>
+						<option value="NSW">NSW</option>
+						<option value="QLD">QLD</option>
+						<option value="NT">NT</option>
+						<option value="WA">WA</option>
+						<option value="SA">SA</option>
+						<option value="TAS">TAS</option>
+						<option value="ACT">ACT</option>
+					</select>
+				</p>
+				
+				<p>
+					<label for="postcode">Post Code</label>                   
+					<input type="text" name="postcode" id="postcode" required="required" />
+				</p>
+				
+				
+			</fieldset>
+			<br>
+			
+			<label for="phoneNumber">Phone Number:</label>
+			<input type="text" id="phoneNumber" name="phoneNumber" maxlength="10" required="required" pattern="[0-9]{1,10}" placeholder="maximum of 10 digit"/>
+			<br><br>
+			
+			<label><input type="radio" name="contactMethod" value="email" required="required"/>Email</label>
+			<label><input type="radio" name="contactMethod" value="post" />Post</label>
+			<label><input type="radio" name="contactMethod" value="phone" />Phone</label>
+			
+		</fieldset>
+		
+		<fieldset>
+			<legend>Product Enquiry</legend>
+			<p><label for="productOptions">Products:</label>
+				<select name="productOptions" id="productOptions" required="required">
+					<option value="">Please select</option>
+					<option value="individual">Individual</option>
+					<option value="couple">Couple</option>
+					<option value="family">Family</option>
+				</select>
+			</p>
+			
+			<label><input type="checkbox" name="features[]" value="Exclusive virtual reality games" checked="checked" />Exclusive virtual reality games</label>
+			<label><input type="checkbox" name="features[]" value="Surf simulator" />Surf simulator</label>
+			<label><input type="checkbox" name="features[]" value="Rock climbing" />Rock climbing</label>
+			<label><input type="checkbox" name="features[]" value="Couple cooking classes" />Couple cooking classes</label>
+			<label><input type="checkbox" name="features[]" value="Candle light dinners" />Candle light dinners</label>
+			<label><input type="checkbox" name="features[]" value="Free movie tickets" />Free movie tickets</label>
+			<label><input type="checkbox" name="features[]" value="Cheaper price per person" />Cheaper price per person</label>
+			<label><input type="checkbox" name="features[]" value="Movie nights for kids" />Movie nights for kids</label>
+			<label><input type="checkbox" name="features[]" value="Family meals and deals" />Family meals and deals</label>
+			
+			<p><label>Comments:<br />
+				<textarea id="comment" name="comment" rows="4" cols="35" placeholder="Write your comments here..."></textarea>
+			</label></p>
+
+		</fieldset>
+		<br>
+		
+		
+		<fieldset>
+			<legend>Purchase a deal</legend>
+			<p>
+				Here are the prices for all available deals:<br/>
+				<ul>
+					<li>Individual deal - 1 week - $400</li>
+					<li>Individual deal - 2 weeks - $600</li>
+					<li>Individual deal - 3 weeks - $800</li>
+					<li>Couple deal - 1 week - $350		</li>
+					<li>Couple deal - 2 weeks - $520	</li>
+					<li>Couple deal - 3 weeks - $650	</li>
+					<li>Family deal - 1 week - $300		</li>
+					<li>Family deal - 2 weeks - $450	</li>
+					<li>Family deal - 3 weeks - $550	</li>
+				</ul>
+			</p>
+			
+			<p><label for="dealsNDuration">Select your deal:</label>
+				<select name="dealsNDuration" id="dealsNDuration" required="required">
+					<option value="none">Please select</option>
+					<option value="individual - 1 week - 400">Individual deal - 1 week - $400</option>
+					<option value="individual - 2 weeks - 600">Individual deal - 2 weeks - $600</option>
+					<option value="individual - 3 weeks - 800">Individual deal - 3 weeks - $800</option>
+					<option value="couple - 1 week - 350">Couple deal - 1 week - $350</option>
+					<option value="couple - 2 weeks - 520">Couple deal - 2 weeks - $520</option>
+					<option value="couple - 3 weeks - 650">Couple deal - 3 weeks - $650</option>
+					<option value="family - 1 week - 300">Family deal - 1 week - $300</option>
+					<option value="family - 2 weeks - 450">Family deal - 2 weeks - $450</option>
+					<option value="family - 3 weeks - 550">Family deal - 3 weeks - $550</option>
+				</select>
+			</p>
+			
+			<label for="quantity">Quantity of bookings:</label>
+			<input type="text" id="quantity" name="quantity" required="required" />
+			
+		</fieldset>
+		<br/>
+		
+		<input id="enquireForm" type="submit" value="Pay Now"/>
+		
+	</form>
+	
+	<footer>
+		<p> &copy; Atlantic Cruise Travel Group Limited.</p>
+	</footer>
+	
+	
+</body>
+
+</html>

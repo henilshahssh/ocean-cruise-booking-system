@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="description" content="payment page" />
+  <meta name="keywords" content="payment page" />
+  <meta name="author" content="Henil Shah"  />
+  <title>Payment Page</title>
+  
+  <link href="styles/style.css" rel="stylesheet" />
+  <link href="styles/enhancements.css" rel="stylesheet" />
+  <script src="scripts/payment.js"></script>
+  <script src="scripts/enhancements.js"></script>
+</head>
+
+<body>
+   <header id="aboutHeader">
+		<a href="https://mercury.swin.edu.au/cos10011/s103190205/assign1/index.html"><img id="logo" src="images/logo.jpg" alt="Logo"></a>
+		<!-- Source: https://www.freepik.com/free-vector/illustration-transportation-icon_2944816.htm#query=cruise%20ship%20logo%20jpg&position=0&from_view=search&track=ais --> 
+		
+		<section class="indexHeaderSection"><h1 id="indexHeader">Payment Page</h1></section>
+    </header> 
+
+	<nav>
+        <p class="menu"><a href="https://mercury.swin.edu.au/cos10011/s103190205/assign2/index.html">Home</a></p> 
+		<p class="menu"><a href="https://mercury.swin.edu.au/cos10011/s103190205/assign2/product.html">Products</a> </p> 
+		<p class="menu"><a href="https://mercury.swin.edu.au/cos10011/s103190205/assign2/enquire.html">Enquiry</a></p> 
+		<p class="menu"><a href="https://mercury.swin.edu.au/cos10011/s103190205/assign2/about.html">About</a></p> 
+		<p class="menu"><a href="https://mercury.swin.edu.au/cos10011/s103190205/assign2/enhancements.html">Enhancements</a></p>
+		<p class="menu"><a href="https://mercury.swin.edu.au/cos10011/s103190205/assign2/enhancements2.html">Enhancements2</a></p>
+    </nav>
+	
+    <form id="detailsAndPaymentForm" method="post" action="https://mercury.swin.edu.au/it000000/formtest.php">
+
+		<fieldset>				
+          <legend>Personal details: </legend>
+          <p>Full Name: <span id="fullName"></span></p>							
+          <p>Email: 	<span id="email"></span></p>									
+          <p>Address: 	<span id="address"></span></p>								
+          <p>Suburb: 	<span id="suburb"></span></p>						
+          <p>State: 	<span id="state"></span></p>								
+          <p>Post Code: <span id="postCode"></span></p>							
+          <p>Phone number: <span id="phoneNumber"></span></p>			
+          <p>Your comments: <span id="comment"></span></p>							
+        </fieldset>
+		
+		<fieldset>				
+          <legend>Your Selection of Products:</legend>
+          <p>Bookings:</p>     
+          <p>Deal selected: <span id="dealsSelected"></span></p>
+          <p>Quantity: 		<span id="quantity"></span></p>
+          <p>Total cost: 	<span id="totalCost"></span></p>			
+        </fieldset>
+  
+        <fieldset>				
+          <legend id="cardLegend">Payment details</legend>
+          <p>																
+            <label for="cardType">Card Type:</label>
+            <select name="cardType" id="cardType">
+			  <option value="none">Please select an option</option>
+              <option value="visa">Visa</option>			
+              <option value="master">MasterCard</option>
+              <option value="amex">American Express</option>
+            </select>
+          </p>	
+          <p>																
+            <label for="cardName">Name on Card:</label> 
+            <input type="text" name= "cardName" id="cardName" >
+                                         
+            <label for="cardNumber">Card Number:</label> 
+            <input type="text" name= "cardNumber" id="cardNumber"  >
+          </p>
+          <p> 															
+            <label for="cardExpiryDate">Card Expiry date:</label> 
+            <input type="text" name= "cardExpiryDate" id="cardExpiryDate" placeholder="mm-yy" >
+           
+            <label for="cardCVVData">Card verification value:</label> 		
+            <input type="text" name= "cardCVVData" id="cardCVVData"  >
+          </p>
+        </fieldset>
+  
+        
+        <input type="hidden" name="firstName" id="firstNamePush">
+        <input type="hidden" name="lastName"  id="lastNamePush">
+        <input type="hidden" name="email" 	  id="emailPush">
+        <input type="hidden" name="address" id="addressPush">
+        <input type="hidden" name="suburb" 	id="suburbPush">
+        <input type="hidden" name="state" 	id="statePush">
+        <input type="hidden" name="postCode" id="postCodePush">
+        <input type="hidden" name="phone" 	id="phonePush">
+        <input type="hidden" name="comment" id="commentPush">
+        <input type="hidden" name="cost" 	id="costPush">
+  
+        <p>
+          <input type="submit" value="Check Out">							
+          <input type="reset" value="Cancel Order" id="cancelOrder">		
+        </p>
+      </form>
+	
+	<footer>
+		<p> &copy; Atlantic Cruise Travel Group Limited.</p>
+	</footer>
+</body>
+
+</html>

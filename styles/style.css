@@ -1,0 +1,220 @@
+/*
+filename: style.css
+author: Henil Shah
+created: 28/08/2022
+last modified: 28/08/2022
+description: index.html, about.html, enquire.html, product.html
+*/
+
+h1 {
+	font: small-caps 2em Arial, Helvetica, sans-serif;
+}
+
+/* To put logo and header in alignment */
+.indexHeaderSection{
+	float: right;
+	width: 90%;
+}
+
+#indexHeader {
+	text-align: center;
+	color: white;
+}
+
+#logo {
+	width: 10%;
+	height: 100px;
+}
+
+header {
+	background-color: #005477;
+	width: 100%;
+}
+
+.menu {
+	display: inline-block;
+}
+
+nav {
+	margin-top: 5px;
+	background-color: #005477;
+}
+
+nav a {
+	color: white; 
+	text-decoration: none;
+	padding: 0.2em 0.6em;
+	border: 4px solid #005477;
+}
+
+nav a:hover {
+	background-color: #005477;
+	border-color: white;
+}
+
+/* To display centre of the image rather than its corners */
+#backgroundImage{
+	width: 100%;
+	height: 800px;
+	position: absolute;
+	object-fit: cover;
+	z-index: 0;
+    object-position: 20% 35%;
+}
+
+#indexBackground{
+	clear: both;
+	width: 100%;
+	height: 800px;
+	position: relative;
+}
+
+/* To center the text and put it above background image */
+#indexText{
+	z-index: 1;
+	position: absolute;
+	left: 25%;
+	top: 20px;
+	font-size: 4.5em;
+	color: white;
+	text-align: center;
+}
+
+/* To center the button and put it above background image */
+#indexBookBtn{
+	z-index: 1;
+	position: absolute;
+	
+	left: 45%;
+	top: 320px;
+	font-size: 4.5em;
+	color: white;
+	text-align: center;
+}
+
+/* To make button look good */
+#indexBookBtn input{
+	background-color: white;
+	color: #005477;
+	width: 8em;  height: 3em;
+	font-size: 20px;
+	border-radius: 15px;
+}
+
+#productFood{
+	width: 55%;
+	height: auto;
+}
+
+#indexBookBtn input:hover{
+	background-color: #005477;
+	color: white;
+}
+
+#enquireForm{
+	background-color: white;
+	color: #005477;
+	width: 13em;  height: 3em;
+	font-size: 20px;
+	border-radius: 15px;
+}
+
+#enquireForm:hover {
+	background-color: #005477;
+	color: white;
+}
+
+/* To apply common theme text color througout the websit */
+h2, .productHeader, section h3, section p, ol, ul, form, dl, h4 {
+	color: #005477;
+}
+
+.productDeals{
+	width: 55%;
+	height: auto;
+}
+
+table, th, td{
+	border: 1px solid black;
+}
+
+aside {
+	background-color: darkgrey;
+	width: 25%;
+	float: right;
+	margin: 10px;
+	padding: 10px;
+	border: 5px #005477 solid;
+}
+
+/* To align table and aside horizontally */
+#productTableAside {
+	display: inline-block;
+}
+
+#productTable {
+	float: left;
+	margin-left: 10%;
+}
+
+#productTable th {
+	background-color: #005477;
+}
+
+#productTable td {
+	background-color:  	#9F2B68;
+}
+
+#productTable th, td {
+	color: white;
+}
+
+figure img{
+	float: right;
+	border: 5px double #005477;
+	padding: 20px;
+	width: 15%;
+	height: auto;
+	margin-right: 10%;
+}
+
+#aboutDetails{
+	float: left;
+	margin-left: 2%;
+}
+
+#aboutTimeTableSection{
+	clear: both;
+	float: left;
+	margin-left: 2%;
+	margin-bottom: 2%;
+}
+
+#aboutTimeTable{
+	width: 60%;
+	table-layout: fixed;
+}
+
+#aboutTimeTable th{
+	font-weight: bold;
+	color: #005477;
+}
+
+#aboutTimeTable td{
+	background-color: #005477;
+}
+
+#aboutTimeTable th, #aboutTimeTable td{
+	text-align: center;
+}
+
+footer{
+	clear: both;
+	text-align: center;
+	background-color: #005477;
+	width: 100%;
+	color: white;
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+}
