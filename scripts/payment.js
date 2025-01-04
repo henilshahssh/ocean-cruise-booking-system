@@ -1,10 +1,4 @@
 
-/*
-Author : Henil Shah 103190205
-Target: payment.html
-Purpose: Assignment 2 - basic requirements
-*/
-
 "use strict";
 
 function validateCardDetails()
