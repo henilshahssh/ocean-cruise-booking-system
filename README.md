@@ -1,6 +1,4 @@
-
 <a id="readme-top"></a>
-
 # Ocean Cruise Booking System
 
 <!-- TABLE OF CONTENTS -->
@@ -26,14 +24,12 @@
 </details>
 
 
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
 An Ocean Cruise Booking System that allows customers to browse, book, and manage their ocean cruise reservations. This system provides a seamless interface for both users and administrators to manage cruises, bookings, payments, and more.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 ### Built With
@@ -44,7 +40,6 @@ An Ocean Cruise Booking System that allows customers to browse, book, and manage
 * PHP
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- GETTING STARTED -->
@@ -90,7 +85,7 @@ _Below is an example of how you can instruct your audience on installing and set
 <!-- CONTACT -->
 ## Contact
 
-Henil Shah - [LinkedIn](www.linkedin.com/in/ssh-henil) - [Email](henilshahssh@gmail.com)
+Henil Shah - [LinkedIn](https://www.linkedin.com/in/ssh-henil) - [Email](henilshahssh@gmail.com)
 
 Project Link: [Ocean Cruise Booking System](https://github.com/henilshahssh/ocean-cruise-booking-system)
 
