@@ -1,5 +1,5 @@
-# Ocean Cruise Booking System
 <a id="readme-top"></a>
+# Ocean Cruise Booking System
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -42,6 +42,7 @@ An Ocean Cruise Booking System that allows customers to browse, book, and manage
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
+
 <!-- GETTING STARTED -->
 ## Getting Started
 
@@ -82,17 +83,14 @@ _Below is an example of how you can instruct your audience on installing and set
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
+
 <!-- CONTACT -->
 ## Contact
-
-Henil Shah - [LinkedIn](https://www.linkedin.com/in/ssh-henil) - [Email](henilshahssh@gmail.com)
-
-Project Link: [Ocean Cruise Booking System](https://github.com/henilshahssh/ocean-cruise-booking-system)
-
+Henil Shah - [LinkedIn](https://www.linkedin.com/in/ssh-henil) - [Email](mailto:henilshahssh@gmail.com)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
-
 * [README guide used to create this](https://github.com/othneildrew/Best-README-Template/blob/main/README.md)
