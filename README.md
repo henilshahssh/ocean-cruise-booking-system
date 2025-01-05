@@ -1,7 +1,7 @@
 <!-- <a id="readme-top"></a> -->
 # Ocean Cruise Booking System
 <!-- TABLE OF CONTENTS -->
-<details>
+<details open="true">
   <summary>Table of Contents</summary>
   <ol>
     <li>
