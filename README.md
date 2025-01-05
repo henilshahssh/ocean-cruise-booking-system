@@ -34,7 +34,7 @@ An Ocean Cruise Booking System that allows customers to browse, book, and manage
 
 <!-- GETTING STARTED -->
 ## Getting Started
-Download the code and as long as the file structure in this repository is maintained, no installation is required.
+Download the code and make sure the file structure of this repository is unchanged.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
