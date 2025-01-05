@@ -39,8 +39,13 @@ An Ocean Cruise Booking System that allows customers to browse, book, and manage
 
 <!-- GETTING STARTED -->
 ## Getting Started
-### Installation
-_As long as the file structure as per repo is maintained, no installation is required._
+As long as the file structure in this repo is maintained, no installation is required.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- USAGE EXAMPLES -->
+## Usage
+Open the index.html file in a web browser.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
