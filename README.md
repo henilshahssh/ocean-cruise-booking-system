@@ -1,4 +1,4 @@
-<a id="readme-top"></a>
+<!-- <a id="readme-top"></a> -->
 # Ocean Cruise Booking System
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -21,34 +21,34 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 An Ocean Cruise Booking System that allows customers to browse, book, and manage their ocean cruise reservations. This system provides a seamless interface for both users and administrators to manage cruises, bookings, payments, and more.
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+<!-- <p align="right">(<a href="#readme-top">back to top</a>)</p>
+ -->
 
 ### Built With
 * HTML
 * CSS
 * JS
 * PHP
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+<!-- <p align="right">(<a href="#readme-top">back to top</a>)</p>
+ -->
 
 <!-- GETTING STARTED -->
 ## Getting Started
 Download the code and make sure the file structure of this repository is unchanged.
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+<!-- <p align="right">(<a href="#readme-top">back to top</a>)</p>
+ -->
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 Extract the zip file(or navigate to cloned repository) and open the index.html file in a web browser.
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+<!-- <p align="right">(<a href="#readme-top">back to top</a>)</p>
+ -->
 
 <!-- CONTACT -->
 ## Contact
 Henil Shah - [LinkedIn](https://www.linkedin.com/in/ssh-henil) - [Email](mailto:henilshahssh@gmail.com)
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+<!-- <p align="right">(<a href="#readme-top">back to top</a>)</p>
+ -->
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
