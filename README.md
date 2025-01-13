@@ -46,7 +46,7 @@ Extract the zip file(or navigate to cloned repository) and open the index.html f
 
 <!-- CONTACT -->
 ## Contact
-Henil Shah - [LinkedIn](https://www.linkedin.com/in/ssh-henil) - [Email](mailto:henilshahssh@gmail.com)
+Henil Shah - [LinkedIn](https://www.linkedin.com/in/henilshahssh) - [Email](mailto:henilshahssh@gmail.com)
 <!-- <p align="right">(<a href="#readme-top">back to top</a>)</p>
  -->
 
